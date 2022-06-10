@@ -1,4 +1,15 @@
 :root{
+    /* Fonts */
+    --main-font-family:'Poppins',
+        sans-serif;
+    --main-dark-color:#000;
+    --main-light-color:#fff;
+    --current-color: #939393;
+    --main-color:#8F95A5;
+    --secondary-color: #263238;
+    --border-color:#c4c4c4;
+    --badge-bg-color:#eeeeee;
+    --badge-color:#546269;
 
 }
 
