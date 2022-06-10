@@ -20,6 +20,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 /* Common styles */
@@ -39,6 +40,9 @@ body{
 
 .list {
     list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .section{
@@ -54,6 +58,14 @@ body{
 
 .current{
     color: var(--current-color);
+}
+
+.conteiner{
+    width: 1338px;
+    margin-left: auto;
+    margin-right: auto; 
+    /* outline: 2px solid yellowgreen;    */
+
 }
 
 .visually-hidden {
@@ -73,7 +85,15 @@ body{
 
 .header{
     background-color: var(--main-light-color);
+    padding-top: 58px;
+    padding-bottom: 48px;
 
+}
+
+.header > .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .site-logo{
@@ -87,18 +107,24 @@ body{
 }
 
 .nav-list{
-
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
-.nav-item{
-
-}
+/* .nav-item + .nav-item {
+    margin-left: 30px;
+} */
 
 .nav-link{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.5;
     color: var(--secondary-color);
+}
+
+.nav-link:hover, .nav-link:focus{
+    color: var(--main-color);
 }
 
 .header-button{
@@ -108,4 +134,37 @@ body{
     line-height: 1.5;
     border: 2px solid var(--secondary-color);
     border-radius: 5px;
+    padding: 17px 57px;
+}
+
+.header-button:hover, .header-button:focus{
+    background-color: var(--badge-color);
+    color: var(--main-light-color);
+}
+
+/* HERO */
+
+.hero-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+    color: var(--main-dark-color);
+}
+
+.hero-description{
+    font-size: 24px;
+    line-height: 1.5
+}
+
+.hero-button{
+    background: var(--secondary-color);
+    border-radius: 15px;
+    color: var(--main-light-color);
+    font-size: 36px;
+    line-height: 1.5;
+
+}
+
+.hero-img{
+
 }
