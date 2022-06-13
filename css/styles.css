@@ -64,12 +64,30 @@ body{
     color: var(--current-color);
 }
 
-.conteiner{
+.conteiner{    
     width: 1338px;
     margin-left: auto;
     margin-right: auto; 
-    /* outline: 2px solid yellowgreen;    */
+    padding-left: 15px;
+    padding-right: 15px;
 
+    /* @media screen and (min-width: 320px) {
+        width: 320px;
+    }
+
+    @media screen and (max-width: 575px) {
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 992px) {
+        
+    }
+
+    @media screen and (max-width: 1338px) {
+        width: 1338px;
+    } */
 }
 
 .visually-hidden {
@@ -144,7 +162,7 @@ body{
 }
 
 .header-button:hover, .header-button:focus{
-    background-color: var(--badge-color);
+    background: var(--secondary-color);
     color: var(--main-light-color);
 }
 
@@ -187,6 +205,36 @@ body{
 
 /* SKILLS */
 
+.skill-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.67;
+    color: var(--main-dark-color);
+}
+
+.skill-list{
+
+}
+
+.skill-item{
+
+}
+
+.skill-name{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2.67;    
+    color: var(--secondary-color);
+
+}
+
+.skill-description{
+    font-size: 16px;
+    line-height: 1.5;    
+    color: var(--main-color);
+
+}
+
 .skill-button {
     background: var(--secondary-color);
     color: var(--main-light-color);
@@ -201,5 +249,17 @@ body{
     font-size: 20px;
     line-height: 1.5;
     color: var(--main-light-color);
-
 }
+
+
+/* About Us */
+
+
+/* Pricing */
+
+
+/* Contact Us */
+
+
+/* Footer */
+
