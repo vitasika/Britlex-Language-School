@@ -300,3 +300,7 @@ body{
 
 /* Footer */
 
+.section-akcent{
+    border-bottom: 1px solid var(--main-color);
+}
+
