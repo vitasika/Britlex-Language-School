@@ -124,9 +124,9 @@ body{
     color: var(--main-dark-color);
 }
 
-.site-nav{
+/* .site-nav{
 
-}
+} */
 
 .nav-list{
     display: flex;
@@ -198,9 +198,9 @@ body{
     /* border: 2px solid var(--secondary-color); */
 }
 
-.hero-img{
+/* .hero-img{
 
-}
+} */
 
 
 /* SKILLS */
@@ -212,13 +212,13 @@ body{
     color: var(--main-dark-color);
 }
 
-.skill-list{
+/* .skill-list{
 
-}
+} */
 
-.skill-item{
+/* .skill-item{
 
-}
+} */
 
 .skill-name{
     font-weight: 600;
