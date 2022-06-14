@@ -300,7 +300,18 @@ body{
 
 /* Footer */
 
-.section-akcent{
-    border-bottom: 1px solid var(--main-color);
+.footer-akcent{
+    border-top: 2px solid var(--current-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-police{
+    margin: 0;
+    padding: 58px 0;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--main-color);
 }
 
