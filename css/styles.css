@@ -211,7 +211,6 @@ p {
 .hero-button:focus {
     background-color: var(--main-light-color);
     color: var(--main-dark-color);
-    /* border: 2px solid var(--secondary-color); */
 }
 
 .hero-img{
@@ -223,7 +222,7 @@ p {
 
 .skill-padding{
     padding-top: 140px;
-    padding-bottom: 140px;
+    /* padding-bottom: 140px; */
 }
 
 .skill-title{
@@ -232,38 +231,98 @@ p {
     line-height: 1.67;
     color: var(--main-dark-color);
     text-align: center;
+    margin-bottom: 96px;
 }
 
 .skill-list{
-    display: flex;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     justify-content: center;
     align-items: flex-start;
+    row-gap: 20px;
+    column-gap: 18px;
 }
 
-.skill-list li{
-    background-color:var(--card-bg-color);
-    margin: 6px;    
+.box1 {
+    grid-row-start: span 2;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;
 }
+
+.box2 {
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;    
+}
+
+.box3 {
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: auto;
+    grid-column-end: auto;    
+}
+
+.box4 {
+    grid-row-start: auto;
+    grid-row-end: auto;
+    grid-column-start: 2;
+    grid-column-end: span 2;    
+}
+
+/* .skill-list li{
+    
+} */
 
 .skill-item{
-    border-radius: 10px;    
+    border-radius: 10px;
+    background-color:var(--card-bg-color);
 }
 
 .skill-speaking{
-    width: 434px;
-    height: 894px;
-    padding: 35px 22px 92px 22px;
+    padding: 401px 44px 92px 44px;
+    position: relative;
+}
+
+.skill-speaking-img{
+    position: absolute;
+    top: 0;
+    left: 17px;
 }
 
 .skill-writing{
-    width: 434px;
-    padding: 44px 41px;
+    padding: 205px 42px 44px 42px;
+    position: relative;
+}
+
+.skill-writing-img{
+    position: absolute;
+    top: -4px;
+    right: 19px;
+}
+
+.skill-reading{
+    padding: 180px 42px 44px 42px;
+    position: relative;
+}
+
+.skill-reading-img {
+    position: absolute;
+    top: 9px;
+    left: 1px;
 }
 
 .skill-listening{
     /* width: 885px; */
-    padding: 43px 44px 25px;
+    padding: 43px 510px 68px 44px;
+    position: relative;
+}
 
+.skill-listening-img {
+    position: absolute;
+    top: 44px;
+    right: 25px;
 }
 
 .skill-name{
@@ -271,13 +330,14 @@ p {
     font-size: 30px;
     line-height: 2.67;    
     color: var(--secondary-color);
-
+    margin-bottom: 5px;
 }
 
 .skill-description{
     font-size: 16px;
     line-height: 1.5;    
     color: var(--main-color);
+    margin-bottom: 36px;
 
 }
 
@@ -309,8 +369,76 @@ p {
 
 /* Pricing */
 
+.pricing-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing-item{
+    width: calc((100% - 2 * 36px) / 3);
+}
+
+.pricing-item-text{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    color: var(--secondary-color);
+}
+
+.pricing-item-description{
+    font-size: 14px;
+    line-height: 1.5;    
+    color: var(--main-color);
+}
+
+.pricing-item-bg{
+    background: var(--badge-bg-color);
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+.pricing-item-price{
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--badge-color);
+}
+
 
 /* Contact Us */
+
+.conteiner-padding{
+    display: flex;
+    align-items: center;
+    padding-top: 133px;
+    padding-bottom: 133px;
+}
+
+.contakt-card{
+    margin-left: 112px;
+}
+
+.contakt-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.67;
+    color: var(--main-dark-color);
+    margin-bottom: 52px;
+}
+
+.contakt-description{
+    font-size: 20px;
+    line-height: 1.5;    
+    color: var(--main-color);
+    margin-bottom: 37px;
+}
+
+.contakt-position-btn{
+    display: flex;
+}
 
 .contakt-input{
     width: 450px;
@@ -321,6 +449,7 @@ p {
     border: 1px solid var(--main-color);
     border-radius: 10px;
     box-sizing: border-box;
+    margin-right: 12px;
 }
 
 .contakt-button {
