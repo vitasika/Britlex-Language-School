@@ -11,7 +11,7 @@
     --border-color:#c4c4c4;
     --badge-bg-color:#eeeeee;
     --badge-color:#546269;
-
+    --card-bg-color:#F5F5F5;
 }
 
 html {
@@ -214,12 +214,17 @@ p {
     /* border: 2px solid var(--secondary-color); */
 }
 
-/* .hero-img{
-
-} */
+.hero-img{
+    width: 660px;
+}
 
 
 /* SKILLS */
+
+.skill-padding{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
 
 .skill-title{
     font-weight: 600;
@@ -233,9 +238,18 @@ p {
 
 } */
 
-/* .skill-item{
+.skill-list li{
+    background-color:var(--card-bg-color) ;
+}
 
-} */
+.skill-item{
+    border-radius: 10px;    
+}
+
+.skill-speaking{
+    width: 420px;
+    padding: 35px 22px 92px 22px;
+}
 
 .skill-name{
     font-weight: 600;
