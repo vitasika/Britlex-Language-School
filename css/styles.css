@@ -234,12 +234,15 @@ p {
     text-align: center;
 }
 
-/* .skill-list{
-
-} */
+.skill-list{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 .skill-list li{
-    background-color:var(--card-bg-color) ;
+    background-color:var(--card-bg-color);
+    margin: 6px;    
 }
 
 .skill-item{
@@ -247,8 +250,20 @@ p {
 }
 
 .skill-speaking{
-    width: 420px;
+    width: 434px;
+    height: 894px;
     padding: 35px 22px 92px 22px;
+}
+
+.skill-writing{
+    width: 434px;
+    padding: 44px 41px;
+}
+
+.skill-listening{
+    /* width: 885px; */
+    padding: 43px 44px 25px;
+
 }
 
 .skill-name{
