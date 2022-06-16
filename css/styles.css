@@ -12,6 +12,7 @@
     --badge-bg-color:#eeeeee;
     --badge-color:#546269;
     --card-bg-color:#F5F5F5;
+    --text-grey-color:#2A3246;
 }
 
 html {
@@ -372,6 +373,69 @@ p {
 
 
 /* About Us */
+
+.about-padding{
+    padding-bottom: 188px;
+}
+
+.about-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.67;
+    color: var(--main-dark-color);
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.about-text-description{
+    width: 635px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--main-color);
+    margin-bottom: 40px;
+}
+
+.about-position{
+    display: flex;
+    align-items: center;
+}
+
+.about-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-list{
+    width: 635px;
+    display: flex;
+    padding-left: 0;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.about-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.about-amount{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.67;    
+    color: var(--text-grey-color);
+}
+
+.about-text{
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--main-color);
+    
+}
+
+.about-img{
+    margin-left: auto;
+}
 
 
 /* Pricing */
