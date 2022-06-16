@@ -285,7 +285,7 @@ p {
 }
 
 .skill-speaking{
-    padding: 401px 44px 92px 44px;
+    padding: 416px 44px 92px 44px;
     position: relative;
 }
 
@@ -296,7 +296,7 @@ p {
 }
 
 .skill-writing{
-    padding: 205px 42px 44px 42px;
+    padding: 245px 42px 44px 42px;
     position: relative;
 }
 
@@ -307,19 +307,19 @@ p {
 }
 
 .skill-reading{
-    padding: 180px 42px 44px 42px;
+    padding: 221px 42px 44px 42px;
     position: relative;
 }
 
 .skill-reading-img {
     position: absolute;
-    top: 9px;
+    top: 0;
     left: 1px;
 }
 
 .skill-listening{
     /* width: 885px; */
-    padding: 43px 510px 68px 44px;
+    padding: 38px 510px 63px 44px;
     position: relative;
 }
 
@@ -334,7 +334,7 @@ p {
     font-size: 30px;
     line-height: 2.67;    
     color: var(--secondary-color);
-    margin-bottom: 5px;
+    margin-bottom: -10px;
 }
 
 .skill-description{
@@ -342,6 +342,7 @@ p {
     line-height: 1.5;    
     color: var(--main-color);
     margin-bottom: 36px;
+    margin-top: -5px;
 
 }
 
