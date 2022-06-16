@@ -386,17 +386,44 @@ p {
     width: calc((100% - 2 * 36px) / 3);
 }
 
-.pricing-item-text{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.4;
-    color: var(--secondary-color);
+.pricing-item-selfimg{
+    margin-bottom: 40px;
 }
 
-.pricing-item-description{
-    font-size: 14px;
+.pricing-item-liveimg{
+    margin-bottom: 42px;
+    margin-top: 26px;
+}
+
+.pricing-item-personalimg{
+    margin-bottom: 11px;
+}
+
+.pricing-item-text{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.pricing-item-start{
+    font-size: 20px;
     line-height: 1.5;    
     color: var(--main-color);
+    margin-bottom: 29px;
+}
+.pricing-item-interactive {
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--main-color);
+    margin-bottom: 59px;
+}
+.pricing-item-online {
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--main-color);
+    margin-bottom: 59px;
 }
 
 .pricing-item-bg{
