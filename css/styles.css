@@ -450,6 +450,13 @@ p {
     width: calc((100% - 2 * 36px) / 3);
 }
 
+.pricing-item:hover {
+    transform: scale(0.95);
+    transition: all 750ms ease;
+    /* transform: scale(1.1);
+    transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
 .pricing-item-selfimg{
     margin-bottom: 40px;
 }
@@ -501,6 +508,14 @@ p {
     display: inline-flex;
     align-items: center;
 }
+
+/* .pricing-item-bg:focus,
+.pricing-item-bg:hover{
+    transform: scale(0.95);
+    transition: all 250ms ease;
+    transform: scale(1.1);
+    transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
 .pricing-item-price{
     font-weight: 400;
